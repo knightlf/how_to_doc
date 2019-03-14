@@ -1,0 +1,266 @@
+:root {
+    --bgcolor-env: #212528;
+    --bgcolor-main: #282C34;
+    --color-main: #ccc;
+    --color-active: #10cfff;
+}
+
+body {
+    font-family: Inziu Iosevka J;
+}
+
+@media only screen and (max-width: 76.1875em) {
+    .md-nav {
+        background-color: var(--bgcolor-env);
+    }
+}
+
+.md-header {
+    background-color: var(--bgcolor-env);
+}
+
+.md-container {
+    background-color: var(--bgcolor-main);
+}
+
+.md-typeset .footnote {
+    color: var(--color-main);
+}
+
+body {
+    color: var(--color-main);
+}
+
+.md-typeset pre {
+    background-color: var(--bgcolor-env);
+}
+
+.md-typeset code {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: #D6BA7C !important;
+    border: solid 1px #555 !important;
+    padding: 5px;
+}
+
+.md-nav__link[data-md-state="blur"] {
+    color: rgba(230, 230, 230, 0.54);
+}
+
+.md-typeset h1 {
+    color: var(--color-main);
+}
+
+a footnote-ref::before {
+    color: #ba8a00;
+}
+
+.md-nav__item--active > .md-nav__link,
+.md-nav__link:active {
+    color: var(--color-active);
+}
+
+.md-nav__link:focus,
+.md-nav__link:hover {
+    color: var(--color-active);
+}
+
+.md-typeset hr {
+    border-bottom: 0.1rem dotted #666;
+}
+
+.md-footer-copyright {
+    color: #666;
+}
+
+.md-footer-nav,
+.md-footer-meta {
+    background-color: var(--bgcolor-env);
+}
+
+.md-typeset blockquote {
+    padding-left: 1.2rem;
+    border-left: 0.4rem solid rgba(230, 230, 230, 0.26);
+    color: rgba(230, 230, 230, 0.54);
+}
+
+@media only screen and (max-width: 76.1875em) {
+    html .md-nav--primary .md-nav__title--site {
+        background-color: var(--bgcolor-env);
+    }
+    html .md-nav--primary .md-nav__title ~ .md-nav__list {
+        background: linear-gradient(180deg, #21252B 10%, transparent),
+            linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.07) 35%, transparent 60%);
+        background-color: var(--bgcolor-main);
+    }
+}
+
+.md-typeset .codehilite,
+.md-typeset .highlight {
+    background-color: transparent;
+    color: var(--color-main);
+}
+
+.md-typeset pre {
+    color: var(--color-main);
+    font-family: Inziu Iosevka J;
+}
+
+.md-typeset .codehilitetable tbody {
+    border: solid 1px #555;
+}
+
+.md-typeset table:not([class]) th {
+    background-color: #383A45;
+}
+
+.md-typeset .codehilitetable .linenos,
+.md-typeset .highlighttable .linenos {
+    background-color: var(--bgcolor-env);
+    color: var(--color-main);
+    border-right: solid 1px #555;
+    font-family: Inziu Iosevka J;
+}
+
+pre:hover .md-clipboard::before,
+.codehilite:hover .md-clipboard::before,
+.md-typeset .highlight:hover .md-clipboard::before {
+    color: var(--color-main);
+}
+
+text.noteText tspan {
+    fill: #fff5ad !important;
+    color: #fff5ad !important;
+}
+
+.md-typeset a {
+    color: #2a86d2;
+    text-decoration: underline;
+}
+
+.md-typeset a:hover {
+    color: #2da0ff;
+    text-decoration: underline;
+}
+
+/* ---------- style for mermaid start ---------- */
+.messageText {
+    fill: var(--color-main) !important;
+}
+
+.label{
+    fill: var(--bgcolor-main) !important;
+    stroke: var(--color-main) !important;
+    color: var(--color-main) !important;
+}
+
+.edgeLabel {
+    background-color: var(--bgcolor-main) !important;
+    stroke: var(--color-main) !important;
+}
+
+[class^="messageLine"] {
+    stroke: var(--color-main) !important;
+}
+
+.actor-line {
+    stroke: var(--color-main) !important;
+}
+
+.path {
+    stroke: var(--color-main) !important;
+}
+
+rect, polygon {
+    fill: var(--bgcolor-main) !important;
+    stroke: var(--color-main) !important;
+    border-color: var(--color-main) !important;
+}
+
+.arrowheadPath {
+    fill: var(--color-main) !important;
+    stroke: var(--color-main) !important;
+}
+
+[id^=arrowhead] {
+    stroke: #ccc;
+    fill: #ccc !important;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    background: #555;
+}
+
+.md-typeset h4 {
+    color: var(--color-main);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.md-typeset h5 {
+    color: var(--color-main);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.md-search-result__teaser {
+    color: var(--color-main);
+}
+
+.md-search__input {
+    background-color: var(--bgcolor-env) !important;
+}
+
+.md-header .md-search__input + .md-search__icon, [data-md-toggle="search"]:checked ~ .md-header .md-search__input::placeholder {
+    color: var(--color-main) !important;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__input {
+    color: var(--color-main) !important;
+}
+
+.md-search-result__meta {
+    background-color: var(--bgcolor-env) !important;
+    color: var(--color-main) !important;
+}
+
+.md-search-result {
+    background-color: var(--bgcolor-env) !important;
+}
+
+.md-search-result__article--document::before {
+    color: var(--color-main) !important;
+}
+
+.md-typeset .md-typeset__table td {
+    border-top: 1px solid #555 !important;
+}
+
+ol {
+    color: #ba8a00;
+}
+
+.md-typeset .headerlink {
+    color: var(--color-main) !important;
+}
+
+.actor {
+    fill: var(--bgcolor-main) !important;
+    stroke: var(--color-main) !important;
+}
+
+text.actor {
+    color: var(--color-main) !important;
+    fill: var(--color-main) !important;
+    stroke: none !important;
+}
+
+.md-typeset > h1, h2, h3, h4, h5 {
+    color: #D17176;
+}
+
+.md-typeset > h4 {
+    color: #D17176;
+}
+
+/* ---------- style for mermaid end ---------- */

@@ -1,0 +1,640 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="cn">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>模板 - 写项目文档的道术</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../../#template" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="写项目文档的道术" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                写项目文档的道术
+              </span>
+              <span class="md-header-nav__topic">
+                模板
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="写项目文档的道术" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    写项目文档的道术
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      README
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        README
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tm/" title="TM 文档学习" class="md-nav__link">
+      TM 文档学习
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        模板
+      </label>
+    
+    <a href="./" title="模板" class="md-nav__link md-nav__link--active">
+      模板
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" title="1 项目名称" class="md-nav__link">
+    1 项目名称
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" title="2 徽章" class="md-nav__link">
+    2 徽章
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" title="3 测试" class="md-nav__link">
+    3 测试
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" title="4 项目简介" class="md-nav__link">
+    4 项目简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" title="5 重要内容 (通用部分)" class="md-nav__link">
+    5 重要内容 (通用部分)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" title="6 文档" class="md-nav__link">
+    6 文档
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" title="7 贡献 (通用部分)" class="md-nav__link">
+    7 贡献 (通用部分)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" title="8 资源 (通用部分)" class="md-nav__link">
+    8 资源 (通用部分)
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" title="1 项目名称" class="md-nav__link">
+    1 项目名称
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" title="2 徽章" class="md-nav__link">
+    2 徽章
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" title="3 测试" class="md-nav__link">
+    3 测试
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" title="4 项目简介" class="md-nav__link">
+    4 项目简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" title="5 重要内容 (通用部分)" class="md-nav__link">
+    5 重要内容 (通用部分)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" title="6 文档" class="md-nav__link">
+    6 文档
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" title="7 贡献 (通用部分)" class="md-nav__link">
+    7 贡献 (通用部分)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" title="8 资源 (通用部分)" class="md-nav__link">
+    8 资源 (通用部分)
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="template">Template<a class="headerlink" href="#template" title="Permanent link">&para;</a></h1>
+<h2 id="1">1 项目名称<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>代码示例</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span># Tendermint
+</pre></div>
+</td></tr></table>
+
+<h2 id="2">2 徽章<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>例如</p>
+<p><img alt="" src="../images/2019-03-16-17-55-10.png" /></p>
+<p>代码示例</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>![build](https://img.shields.io/badge/build-passing-success.svg)
+[![Tag](https://img.shields.io/badge/tag-v0.0.8-orange.svg)](https://github.com/trias-lab/gondwana/releases/tag/v0.0.8)
+[![Go version](https://img.shields.io/badge/go-1.12.1-blue.svg)](https://github.com/moovweb/gvm)
+[![license](https://img.shields.io/badge/license-GPLv3-green.svg)](https://github.com/trias-lab/gondwana/blob/master/LICENSE)
+</pre></div>
+</td></tr></table>
+
+<h2 id="3">3 测试<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>例如</p>
+<p><img alt="" src="../images/2019-03-16-17-56-18.png" /></p>
+<p>代码示例</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>| Branch  |                                 Tests                                 |                              Coverage                               |
+| ------- | --------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| master  | ![master test](https://img.shields.io/badge/test-passing-success.svg) | ![master cov](https://img.shields.io/badge/cov-58%25-critical.svg)  |
+| develop | ![develp test](https://img.shields.io/badge/test-passing-success.svg) | ![develop cov](https://img.shields.io/badge/cov-58%25-critical.svg) |
+</pre></div>
+</td></tr></table>
+
+<h2 id="4">4 项目简介<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<h2 id="5">5 重要内容 <strong>(通用部分)</strong><a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>## A Note on Production Readiness
+
+While Trias is being used in production in private, permissioned
+environments, we are still working actively to harden and audit it in preparation
+for use in public blockchains.
+We are also still making breaking changes to the protocol and the APIs.
+Thus, we tag the releases as *alpha software*.
+
+In any case, if you intend to run Trias in production,
+please [contact us](mailto:contact@trias.one) and [join the chat](https://www.trias.one).
+
+## Security
+
+To report a security vulnerability,  [bug report](mailto:contact@trias.one)
+</pre></div>
+</td></tr></table>
+
+<h2 id="6">6 文档<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>## Documentation
+
+Complete documentation can be found on the [website](https://github.com/trias-lab/Documentation).**(通用部分)**
+
+### Install
+
+此处是说明或文档链接
+
+### Quick Start
+
+此处是说明或文档链接
+</pre></div>
+</td></tr></table>
+
+<h2 id="7">7 贡献 <strong>(通用部分)</strong><a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>## Contributing
+All code contributions and document maintenance are temporarily responsible for TriasLab
+
+Trias are now developing at a high speed and we are looking forward to working with quality partners who are interested in Trias. If you want to join.Please contact us:
+- [Telegram](https://t.me/triaslab)
+- [Medium](https://medium.com/@Triaslab)
+- [BiYong](https://0.plus/#/triaslab)
+- [Twitter](https://twitter.com/triaslab)
+- [Gitbub](https://github.com/trias-lab/Documentation)
+- [Reddit](https://www.reddit.com/r/Trias_Lab)
+- [More](https://www.trias.one/)
+- [Email](mailto:contact@trias.one)
+
+
+### Upgrades
+
+Trias is responsible for the code and documentation upgrades for all Trias modules.
+In an effort to avoid accumulating technical debt prior to Beta,
+we do not guarantee that data breaking changes (ie. bumps in the MINOR version)
+will work with existing Trias blockchains. In these cases you will
+have to start a new blockchain, or write something custom to get the old data into the new chain.
+</pre></div>
+</td></tr></table>
+
+<h2 id="8">8 资源 <strong>(通用部分)</strong><a class="headerlink" href="#8" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>## Resources
+
+### Research
+
+* [The latest paper](https://www.contact@trias.one/attachment/Trias-whitepaper%20attachments.zip)
+* [Project process](https://trias.one/updates/project)
+* [Original Whitepaper](https://trias.one/whitepaper)
+* [News room](https://trias.one/updates/recent)
+</pre></div>
+</td></tr></table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../tm/" title="TM 文档学习" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                TM 文档学习
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.cn.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js"></script>
+      
+        <script src="../../assets/material_nav_extend.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>

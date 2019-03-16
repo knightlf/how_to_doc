@@ -1,4 +1,17 @@
-# Template
+# 模板
+
+- [模板](#模板)
+    - [1 项目名称](#1-项目名称)
+    - [2 徽章](#2-徽章)
+    - [3 测试](#3-测试)
+    - [4 项目简介](#4-项目简介)
+    - [5 重要内容 **(通用部分)**](#5-重要内容-通用部分)
+    - [6 文档](#6-文档)
+        - [6.1 website **(通用部分)**](#61-website-通用部分)
+        - [6.2 Install](#62-install)
+        - [6.3 Quick Start](#63-quick-start)
+    - [7 贡献 **(通用部分)**](#7-贡献-通用部分)
+    - [8 资源 **(通用部分)**](#8-资源-通用部分)
 
 ## 1 项目名称
 
@@ -61,17 +74,25 @@ To report a security vulnerability,  [bug report](mailto:contact@trias.one)
 
 ## 6 文档 
 
-**(通用部分)**
+### 6.1 website **(通用部分)**
+
 ```markdown
 ## Documentation
 
 Complete documentation can be found on the [website](https://github.com/trias-lab/Documentation).
 ```
 
+### 6.2 Install
+
 ```markdown
 ### Install
 
 此处是说明或文档链接
+```
+
+### 6.3 Quick Start
+
+```markdown
 
 ### Quick Start
 

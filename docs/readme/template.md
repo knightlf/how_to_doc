@@ -82,6 +82,7 @@ Complete documentation can be found on the [website](https://github.com/trias-la
 
 ```markdown
 ## Contributing
+
 All code contributions and document maintenance are temporarily responsible for TriasLab
 
 Trias are now developing at a high speed and we are looking forward to working with quality partners who are interested in Trias. If you want to join.Please contact us:

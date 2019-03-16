@@ -61,11 +61,14 @@ To report a security vulnerability,  [bug report](mailto:contact@trias.one)
 
 ## 6 文档 
 
+**(通用部分)**
 ```markdown
 ## Documentation
 
-Complete documentation can be found on the [website](https://github.com/trias-lab/Documentation).**(通用部分)**
+Complete documentation can be found on the [website](https://github.com/trias-lab/Documentation).
+```
 
+```markdown
 ### Install
 
 此处是说明或文档链接

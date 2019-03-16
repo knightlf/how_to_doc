@@ -2,7 +2,7 @@ site_name: 写项目文档的道术
 nav:
   - README:
     - TM 文档学习: readme/tm.md
-
+    - 模板: readme/template.md
 theme:
   name: 'material'
 
